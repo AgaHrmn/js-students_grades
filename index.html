@@ -20,18 +20,29 @@
     <div id="screen">
         <div id="wrapper">
             <h1>Welcome at Students Registry!</h1>
-            <h3>Please provide Your full name, ID and your exam grades.</p>
+            <h3>Please provide Your full name, ID and your exam grades.</h3>
 
-                <form>
-                    <input type="text" value="" placeholder="full name" />
-                    <input type="text" value="" placeholder="id" />
-                    <input type="text" value="" placeholder="grades" />
-                    <button type="submit">submit</button>
-                </form>
-                <div>
-                    <h3>Your average: <span id="average">0</span></h3>
-                    <h3>Your letter grade: <span id="letter">F</span></h3>
-                </div>
+            <form>
+                <input type="text" value="" placeholder="full name" />
+                <input type="text" value="" placeholder="id" />
+                <input type="text" value="" placeholder="grades" />
+                <button type="submit">submit</button>
+            </form>
+
+            <h3>Your average: <span id="average">0</span></h3>
+            <h3>Your letter grade: <span id="letter">F</span></h3>
+
+            <button id="showTableButt">Our students</button>
+            <div class="table-container hidden" id="tableContainer">
+                <table id="studentsTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Average Grade</th>
+                    </tr>
+                </table>
+            </div>
+            
 
         </div>
     </div>

@@ -16,14 +16,22 @@ span {
     font-size: 35px;
 }
 
+#table-container{
+    margin-bottom: 10px;
+}
 
+#showTableButt {
+    font-size: 50px;
+    margin-bottom: 10px;
+    border: solid orangered 5px;
+}
 button {
+    font-family: 'Honk', system-ui;
+    font-size: 25px;
     min-width: 150px;
     transition-duration: 0.5s;
     background-color: white;
     border: solid orangered 4px;
-    font-family: 'Honk', system-ui;
-    font-size: 25px;
     border-radius: 15px;
 }
 
@@ -33,12 +41,12 @@ button:hover {
 }
 
 input {
-    /* flex: 1; */
+    flex: auto;
+    max-width: 300px;
     border: solid orangered 4px;
     border-radius: 15px;
     font-family: 'Chakra Petch', sans-serif;
-    min-width: 250px;
-    padding: 100;
+    padding-right: 5px;
 }
 
 input:focus {
@@ -59,16 +67,47 @@ input:focus {
 #wrapper {
     margin: 25px;
     background-color: whitesmoke;
-    width: 80%;
+    width: 95%;
     border: solid orangered 6px;
     border-radius: 50px;
     text-align: center;
+    justify-content: center;
 }
 
 form {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 85px;
+    margin-right: 85px;
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.table-container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#studentsTable {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid orangered 4px;
+    border-radius: 5px;
+    width: 85%;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 25px;
+    width: 33.33%;
+}
+
+.hidden {
+    display: none;
+    /* Initially hide the table */
 }
