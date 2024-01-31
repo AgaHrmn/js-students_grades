@@ -1,0 +1,74 @@
+body {
+    font-family: 'Honk', system-ui;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+span {
+    font-family: 'Honk', system-ui;
+    font-size: 35px;
+}
+
+
+button {
+    min-width: 150px;
+    transition-duration: 0.5s;
+    background-color: white;
+    border: solid orangered 4px;
+    font-family: 'Honk', system-ui;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: orangered;
+    -webkit-text-fill-color: white;
+}
+
+input {
+    /* flex: 1; */
+    border: solid orangered 4px;
+    border-radius: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    min-width: 250px;
+    padding: 100;
+}
+
+input:focus {
+    background-color: #ffff80;
+    outline: none;
+}
+
+#screen {
+    /* background-color: whitesmoke; */
+    background-image: url('bg.jpg');
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    margin: 25px;
+    background-color: whitesmoke;
+    width: 80%;
+    border: solid orangered 6px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
