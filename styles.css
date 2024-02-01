@@ -16,23 +16,19 @@ span {
     font-size: 35px;
 }
 
-#table-container{
-    margin-bottom: 10px;
-}
-
 #showTableButt {
     font-size: 50px;
     margin-bottom: 10px;
     border: solid orangered 5px;
 }
+
 button {
     font-family: 'Honk', system-ui;
     font-size: 25px;
-    min-width: 150px;
     transition-duration: 0.5s;
     background-color: white;
     border: solid orangered 4px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -41,12 +37,15 @@ button:hover {
 }
 
 input {
-    flex: auto;
-    max-width: 300px;
+    flex: 1;
+    margin-right: 5px;
+    display: flex;
     border: solid orangered 4px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: 'Chakra Petch', sans-serif;
     padding-right: 5px;
+    width: 80%;
+    box-sizing: border-box;
 }
 
 input:focus {
@@ -55,49 +54,44 @@ input:focus {
 }
 
 #screen {
-    /* background-color: whitesmoke; */
     background-image: url('bg.jpg');
     min-height: 100vh;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #wrapper {
-    margin: 25px;
+    /* margin: 0 auto; */
     background-color: whitesmoke;
     width: 95%;
     border: solid orangered 6px;
-    border-radius: 50px;
+    border-radius: 25px;
     text-align: center;
-    justify-content: center;
 }
 
 form {
-    margin-left: 85px;
-    margin-right: 85px;
     display: flex;
-    justify-content: space-evenly;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    gap: 5px;
 }
 
-.table-container {
-    margin: 0 auto;
-    max-width: 600px;
+#table-container {
+    display: flex;
+    margin: 0 auto; 
+    min-width: 600px;
 }
 
 #studentsTable {
     font-family: 'Chakra Petch', sans-serif;
-    margin: 0 auto;
-    margin-bottom: 10px;
     background-color: white;
     border: solid orangered 4px;
     border-radius: 5px;
     width: 85%;
-    justify-content: center;
-    text-align: center;
-    justify-content: space-evenly;
+    margin: 0 auto; 
+    margin-bottom: 10px;
 }
 
 th,
@@ -109,5 +103,4 @@ td {
 
 .hidden {
     display: none;
-    /* Initially hide the table */
 }
