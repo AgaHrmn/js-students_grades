@@ -81,14 +81,14 @@ function populateTable() {
     table.innerHTML =
         `<tr>
             <th>Name</th>
-            <th>Surname</th>
+            <th>ID</th>
             <th>Average Grade</th>
         </tr>`;
     studentsgistry.forEach(function (student) {
         const tr = document.createElement('tr');
         tr.innerHTML =
-            `<td>${student.id}</td>
-            <td>${student.fullName}</td>
+            `<td>${student.fullName}</td>
+            <td>${student.id}</td>
             <td>${student.avgGrade}</td>`;
 
         table.appendChild(tr);
