@@ -19,7 +19,7 @@ This project is a simple web application for managing student grades. It allows 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/AgaHrmn/student-grades-management.git
+    git clone https://github.com/AgaHrmn/js-students_grades_mgmnt.git
     ```
 
 2. Open the `index.html` file in a web browser.
