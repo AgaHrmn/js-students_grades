@@ -1,0 +1,106 @@
+body {
+    font-family: 'Honk', system-ui;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+span {
+    font-family: 'Honk', system-ui;
+    font-size: 35px;
+}
+
+#showTableButt {
+    font-size: 50px;
+    margin-bottom: 10px;
+    border: solid orangered 5px;
+}
+
+button {
+    font-family: 'Honk', system-ui;
+    font-size: 25px;
+    transition-duration: 0.5s;
+    background-color: white;
+    border: solid orangered 4px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: orangered;
+    -webkit-text-fill-color: white;
+}
+
+input {
+    flex: 1;
+    margin-right: 5px;
+    display: flex;
+    border: solid orangered 4px;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-right: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: #ffff80;
+    outline: none;
+}
+
+#screen {
+    background-image: url('bg.jpg');
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    /* margin: 0 auto; */
+    background-color: whitesmoke;
+    width: 95%;
+    border: solid orangered 6px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#table-container {
+    display: flex;
+    margin: 0 auto; 
+    min-width: 600px;
+}
+
+#studentsTable {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: white;
+    border: solid orangered 4px;
+    border-radius: 5px;
+    width: 85%;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 25px;
+    width: 33.33%;
+}
+
+.hidden {
+    display: none;
+}

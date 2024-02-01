@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Registry</title>
+
+    <link rel="icon" href="pencil.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Honk&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="wrapper">
+            <h1>Welcome at Students Registry!</h1>
+            <h3>Please provide Your full name, ID and your exam grades.</h3>
+
+            <form id="studentsDataForm">
+                <input type="text" value="" id="fullName" placeholder="full name" />
+                <input type="text" value="" id="id" placeholder="id" />
+                <input type="text" value="" id="grades" placeholder="grades" />
+                <button type="submit">submit</button>
+            </form>
+
+            <h3>Your average: <span id="avg">0</span></h3>
+            <h3>Your letter grade: <span id="letter">F</span></h3>
+
+            <button id="showTableButt">Our students</button>
+            <div class="table-container hidden" id="tableContainer">
+                <table id="studentsTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Average Grade</th>
+                    </tr>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+
+</body>
+
+</html>
